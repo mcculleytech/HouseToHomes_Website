@@ -31,13 +31,24 @@
 }
 
 .logo-white{
-  filter: brightness(1) invert(1) sepia(.5) hue-rotate(100deg) saturate(0%);
+  filter: invert(28%) sepia(21%) saturate(856%) hue-rotate(213deg) brightness(94%) contrast(86%);
+}
+.logo-purple{
+  filter: invert(28%) sepia(21%) saturate(856%) hue-rotate(213deg) brightness(94%) contrast(86%);
 }
 
 body {
     background-color: #ffefe7;
     color: #005887;
 }
-.bg-myPurple {
-  background-color: #534B6F ;
+.bg-myNav {
+  background-color: #fff7f3 ;
+  border-bottom: #e6d7d0 solid 2px;
+  color: #534B6F;
+}
+
+.bg-myFooter {
+  background-color: #fff7f3 ;
+  border-top: #e6d7d0 solid 2px;
+  color: #534B6F;
 }
