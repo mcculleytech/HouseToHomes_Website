@@ -63,3 +63,34 @@ body {
   border-top: #e6d7d0 solid 2px;
   color: #534B6F;
 }
+
+input[type="email"] {
+  -webkit-text-fill-color: #5a5451;
+  transition: background-color 5000s ease-in-out 0s;
+  
+}
+input[type="email"]:focus {
+  -webkit-text-fill-color: #5a5451; 
+  color: #5a5451;
+  background-color: #e6d7d0 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #e6d7d0 inset !important;
+}
+
+
+
+.extend-tan-up {
+  -webkit-box-shadow: 0 -15px 0px #ffefe7 !important;
+
+}
+
+.extend-tan-down {
+  -webkit-box-shadow: 0 10px 0px #ffefe7 !important;
+}
+
+.extend-purple-down {
+  -webkit-box-shadow: 0 5px 0px #534B6F !important;
+}
+
+.extend-purple-up {
+  -webkit-box-shadow: 0 -10px 0px #534B6F !important;
+}
