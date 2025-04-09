@@ -47,6 +47,17 @@ body {
   color: #534B6F;
 }
 
+.bg-myPurple{
+  background-color: #534B6F ;
+  color: white;
+}
+
+.bg-My-Darker-Tan {
+  background-color: #ffefe7;
+}
+.bg-My-Tan {
+  background-color: #fff7f3 ;
+}
 .bg-myFooter {
   background-color: #fff7f3 ;
   border-top: #e6d7d0 solid 2px;
