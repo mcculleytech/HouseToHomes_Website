@@ -64,12 +64,12 @@ body {
   color: #534B6F;
 }
 
-input[type="email"] {
+input.tan {
   -webkit-text-fill-color: #5a5451;
   transition: background-color 5000s ease-in-out 0s;
   
 }
-input[type="email"]:focus {
+input.tan:focus {
   -webkit-text-fill-color: #5a5451; 
   color: #5a5451;
   background-color: #e6d7d0 !important;
