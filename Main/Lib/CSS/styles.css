@@ -26,7 +26,7 @@
   
   :root {
     font-family: 'Georgia', 'Times New Roman', serif;
-
+    font-size: 14px;
     
 }
 
@@ -41,6 +41,8 @@ body {
     background-color: #ffefe7;
     color: #005887;
 }
+
+
 .bg-myNav {
   background-color: #fff7f3 ;
   border-bottom: #e6d7d0 solid 2px;
@@ -84,7 +86,7 @@ input.tan:focus {
 }
 
 .extend-tan-down {
-  -webkit-box-shadow: 0 10px 0px #ffefe7 !important;
+  -webkit-box-shadow: 0 20px 0px #ffefe7 !important;
 }
 
 .extend-purple-down {
