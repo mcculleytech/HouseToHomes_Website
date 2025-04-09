@@ -5,7 +5,6 @@
  */
 ?>
 
-    </main>
     <footer class="footer mt-5 p-3 border-top rounded">
         <div class="container">
             <p>
