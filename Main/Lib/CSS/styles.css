@@ -1,3 +1,4 @@
+
 /* Animated Gradient Background */
 .animated-background {
     position: absolute;
@@ -23,3 +24,20 @@
     }
   }
   
+  :root {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (max-width: 768px) {
+    :root {
+      font-size: 16px;
+    }
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}

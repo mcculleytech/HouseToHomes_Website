@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+hi
+© 2025 Made by Yasin Sisto, Will Broui
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>House to Home Solutions</title>
   <link rel="stylesheet" href="Lib\CSS\styles.css">
-  <script src="https://cdn.tailwindcss.com"></script>
   <script src="/Main/Lib/JS/main.js" defer></script>
 </head>
 <body class="bg-gradient-to-r from-[#FFFDFC] via-[#D8E8F0] to-[#A3C9D9] font-sans">
@@ -25,7 +26,7 @@
 
   <!-- Dropdown Menu -->
   <div class="hidden lg:flex space-x-12 pr-64">
-    <a href="#" class="hover:underline text-[#FFFDFC]">Request an Estimate</a>
+    <a href="?action=RequestEstimate" class="hover:underline text-[#FFFDFC]">Request an Estimate</a>
     <a href="#" class="hover:underline text-[#FFFDFC]">Write a review</a>
     <a href="#" class="hover:underline text-[#FFFDFC]">Contact us</a>
   </div>
