@@ -1,2 +1,3 @@
 <?php
-require_once 'Views/Home/IndexView.php';
+require_once 'Views/IndexView.php';
+?>
