@@ -4,6 +4,7 @@ const forms = require('@tailwindcss/forms');
 const flowbiteDatepicker = require('flowbite-datepicker');
 
 module.exports = {
+    darkMode: 'false',
   content: [
     "./path-to-your-html/**/*.html",
     "./node_modules/flowbite/**/*.js",

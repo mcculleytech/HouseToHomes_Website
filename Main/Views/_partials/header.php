@@ -16,13 +16,15 @@
     <link rel="stylesheet" href="Lib\CSS\styles.css">
 </head>
 <body class="">
+<div class="relative min-h-screen">
+
     <nav class="top-0 flex w-full py-5 bg-myNav caret-transparent  ">
         <div class="shrink  px-2 w-20">
             <a href="?action=home">
                 <img src="Lib/Images/Logo_Black.png" alt="Logo" class="inline shrink max-w-12 logo-purple">
             </a>
         </div>
-        <div class="flex fixed right-0 py-2 w-80  md:w-6/7 lg:w-6/7 justify-between text-xl  md:text-2xl lg:text-xl font-bold ">
+        <div class="flex right-0 py-2 w-80  md:w-6/7 lg:w-6/7 justify-between text-xl  md:text-2xl lg:text-xl font-bold ">
         <a href="#" class="hidden lg:inline-block md:inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Request an Estimate</a>
         <a href="#" class=" lg:hidden md:hidden inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Estimate</a> <p class="lg:hidden md:hidden">|</p>
 
@@ -34,4 +36,6 @@
 
         </div>
     </nav>
+
+    
 
