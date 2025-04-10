@@ -24,7 +24,7 @@
           <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
         </svg>
       </div>
-      <input datepicker id="default-datepicker" type="text" style="padding-left:2.5rem;" class="color-primary-light-tan tan outline-1 outline-[#b3a7a2] text-sm rounded-lg focus:ring-[#5a5451]  block w-full ps-10 p-2.5" placeholder="Select date">
+      <input datepicker id="default-datepicker" type="text" style="padding-left:2.5rem;" class="dark:bg-[#b3a7a2] color-primary-light-tan tan outline-1 outline-[#b3a7a2] text-sm rounded-lg focus:ring-[#5a5451]  block w-full ps-10 p-2.5" placeholder="Select date">
 
       </div>
     </div>
