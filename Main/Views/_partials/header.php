@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="Lib\CSS\styles.css">
 </head>
 <body class="">
+<div class="relative min-h-screen">
+
     <nav class="top-0 flex w-full py-5 bg-myNav caret-transparent  ">
         <div class="shrink  px-2 w-20">
             <a href="?action=home">
@@ -34,4 +36,6 @@
 
         </div>
     </nav>
+
+    
 
