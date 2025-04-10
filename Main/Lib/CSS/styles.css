@@ -1,3 +1,4 @@
+
 /* Animated Gradient Background */
 .animated-background {
     position: absolute;
@@ -23,3 +24,76 @@
     }
   }
   
+  :root {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 14px;
+    
+}
+
+.logo-white{
+  filter: invert(28%) sepia(21%) saturate(856%) hue-rotate(213deg) brightness(94%) contrast(86%);
+}
+.logo-purple{
+  filter: invert(28%) sepia(21%) saturate(856%) hue-rotate(213deg) brightness(94%) contrast(86%);
+}
+
+body {
+    background-color: #ffefe7;
+    color: #005887;
+}
+
+
+.bg-myNav {
+  background-color: #fff7f3 ;
+  border-bottom: #e6d7d0 solid 2px;
+  color: #534B6F;
+}
+
+.bg-myPurple{
+  background-color: #534B6F ;
+  color: white;
+}
+
+.bg-My-Darker-Tan {
+  background-color: #ffefe7;
+}
+.bg-My-Tan {
+  background-color: #fff7f3 ;
+}
+.bg-myFooter {
+  background-color: #fff7f3 ;
+  border-top: #e6d7d0 solid 2px;
+  color: #534B6F;
+}
+
+input.tan {
+  -webkit-text-fill-color: #5a5451;
+  transition: background-color 5000s ease-in-out 0s;
+  
+}
+input.tan:focus {
+  -webkit-text-fill-color: #5a5451; 
+  color: #5a5451;
+  background-color: #e6d7d0 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #e6d7d0 inset !important;
+}
+
+
+
+.extend-tan-up {
+  -webkit-box-shadow: 0 -15px 0px #ffefe7 !important;
+
+}
+
+.extend-tan-down {
+  -webkit-box-shadow: 0 20px 0px #ffefe7 !important;
+}
+
+.extend-purple-down {
+  -webkit-box-shadow: 0 5px 0px #534B6F !important;
+}
+
+.extend-purple-up {
+  -webkit-box-shadow: 0 -10px 0px #534B6F !important;
+}
+

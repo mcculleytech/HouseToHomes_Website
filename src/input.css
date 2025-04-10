@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+
+@import "flowbite/src/themes/default";
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@source "../node_modules/flowbite-datepicker/node_modules/flowbite";
+
+@theme {
+    --color-primary-tan: #ffefe7 ;
+    --color-primary-light-tan: #fff7f3;
+    --color-primary-purple: #534B6F;
+
+}
