@@ -38,14 +38,14 @@
 }
 
 body {
-    background-color: #ffefe7;
+    background-color: #fff7f3;
     color: #005887;
 }
 
 
 .bg-myNav {
   background-color: #fff7f3 ;
-  border-bottom: #e6d7d0 solid 2px;
+  border-bottom: #e6d7d0 solid 1px;
   color: #534B6F;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 .bg-myFooter {
   background-color: #fff7f3 ;
-  border-top: #e6d7d0 solid 2px;
+  border-top: #e6d7d0 solid 1px;
   color: #534B6F;
 }
 
@@ -81,12 +81,12 @@ input.tan:focus {
 
 
 .extend-tan-up {
-  -webkit-box-shadow: 0 -15px 0px #ffefe7 !important;
+  -webkit-box-shadow: 0 -15px 0px #fff7f3 !important;
 
 }
 
 .extend-tan-down {
-  -webkit-box-shadow: 0 20px 0px #ffefe7 !important;
+  -webkit-box-shadow: 0 20px 0px #fff7f3 !important;
 }
 
 .extend-purple-down {

@@ -25,8 +25,13 @@
             </a>
         </div>
         <div class="flex right-0 py-2 w-80  md:w-6/7 lg:w-6/7 justify-between text-xl  md:text-2xl lg:text-xl font-bold ">
-        <a href="#" class="hidden lg:inline-block md:inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Request an Estimate</a>
-        <a href="#" class=" lg:hidden md:hidden inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Estimate</a> <p class="lg:hidden md:hidden">|</p>
+        <?php if($action == 'home') : ?>
+            <a href="?action=RequestEstimate" class="hidden lg:inline-block md:inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Request an Estimate</a>
+            <a href="?action=RequestEstimate" class=" lg:hidden md:hidden inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Estimate</a> <p class="lg:hidden md:hidden">|</p>
+        <?php else : ?>
+            <a href="?action=home" class="hidden lg:inline-block md:inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Home Page</a>
+            <a href="?action=home" class=" lg:hidden md:hidden inline-block transition-transform duration-300 hover:scale-110 m-auto  text-[#534B6F]">Home</a> <p class="lg:hidden md:hidden">|</p>
+        <?php endif; ?>
 
         <a href="#" class="hidden lg:inline-block md:inline-block transition-transform duration-300 hover:scale-110 m-auto text-[#534B6F]">Write a review</a>
         <a href="#" class="inline-block lg:hidden md:hidden transition-transform duration-300 hover:scale-110 m-auto text-[#534B6F]">Review</a> <p class="lg:hidden md:hidden">|</p>
