@@ -12,6 +12,8 @@ switch ($action)
     case 'home':
         include('Views/IndexView.php');
         exit();
-
+    case 'about':
+        include('Views/About.php');
+        exit();
    
 }
