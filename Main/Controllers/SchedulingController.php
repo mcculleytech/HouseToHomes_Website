@@ -13,5 +13,7 @@ switch ($action)
         include('Views/SchedulingView.php');
         exit();
 
-   
+   case 'FormSubmited':
+       include('Views/completedView.php');
+       exit();
 }

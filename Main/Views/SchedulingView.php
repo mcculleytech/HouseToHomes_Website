@@ -1,4 +1,4 @@
-<?php include('views/_partials/header.php'); ?>
+<?php include('Views/_partials/header.php'); ?>
 
 <div class="main-content flex w-full justify-center h-auto items-center ">
 
@@ -70,4 +70,4 @@
 
 
 
-<?php include('views/_partials/footer.php'); ?>
+<?php include('Views/_partials/footer.php'); ?>
