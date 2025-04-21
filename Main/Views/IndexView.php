@@ -1,7 +1,7 @@
-<?php include('views/_partials/header.php'); ?>
+<?php include('Views/_partials/header.php'); ?>
 
 <!-- Hero Section -->
-<section class="flex flex-col lg:flex-row items-center space-y-6 lg:space-x-8 lg:space-y-0 pb-12 sm:pb-16 lg:pb-0">
+<section class="flex flex-col w-screen lg:flex-row items-center space-y-6 lg:space-x-8 lg:space-y-0 pb-12 sm:pb-16 lg:pb-0">
   <img src="Lib/Images/Person_HomePage_cover.png" alt="Hero Image" class="w-auto h-auto pl-4 sm:pl-8 md:pl-16 lg:pl-32 xl:pl-96">
   <div class="bg-[#534B6F] text-[#FFFDFC] p-6 rounded-xl max-w-md w-full shadow-[0_10px_30px_rgba(0,0,0,0.5)] sm:w-2/3 md:w-1/2 lg:w-auto">
     <p>
@@ -22,8 +22,6 @@
 </section>
 
 
-<!-- Blue Thick Line -->
-<div class="lg:w-1/2 h-9 bg-[#005887] my-15 mr-auto shadow-[0_10px_30px_rgba(0,0,0,0.5)] sm:w-auto h-9 bg-[#005887] my-15 mr-auto shadow-2xl"></div>
 
 <!-- Services Section -->
 <section class="text-[#FFFDFC] py-12 text-center">
@@ -108,8 +106,6 @@
 
 
 
-<!-- Blue Thick Line -->
-<div class="lg:w-1/2 h-1 bg-[#005887] my-15 ml-auto sm:w-auto h-1 bg-[#005887] my-15 ml-auto"></div>
 
 <!-- Testimonials -->
 <section class="text-[#FFFDFC] text-center py-12 mb-40"> <!-- Added mb-32 here -->
@@ -144,8 +140,7 @@
   </div>
 </section>
 
-<!-- Blue Thick Line -->
-<div class="w-1/2 h-9 bg-[#FFFDFC]"></div>
+
 
 <!-- Contact Info Section -->
 <div class="w-full mt-4 mb-10 flex flex-col items-center gap-4 text-center text-black font-sans bg-My-Tan py-6 px-4 rounded-md shadow-md">

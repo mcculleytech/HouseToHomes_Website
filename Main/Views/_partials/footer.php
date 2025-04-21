@@ -8,9 +8,10 @@
 
     <footer class="flex absolute bottom-0 py-5 w-full justify-center bg-myFooter">
         <div class="flex w-full justify-center">
-            <p>
-                &copy; <?php echo date('Y'); ?> Made by Yasin Sisto &amp; Ethan Diaz
-            </p>
+            <div class="flex flex-col justify-center items-center">
+                <p class="self-center"> &copy; 2025 House To Home LLC. All Rights Reserved.</p>
+                <p style="color:rgba(82, 74, 109, 0.48);" class="self-center">Made by Yasin Sisto &amp; Ethan Diaz</p>
+            </div>
         </div>
     </footer>
     </div>

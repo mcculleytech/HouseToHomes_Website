@@ -53,6 +53,13 @@ body {
   background-color: #534B6F ;
   color: white;
 }
+.bg-myDarkPurple{
+  background-color: #2a2638 ;
+  color: white;
+}
+.border-myDarkPurple{
+  border-color: #110f16;
+}
 
 .bg-My-Darker-Tan {
   background-color: #ffefe7;
