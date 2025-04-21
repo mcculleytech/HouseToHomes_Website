@@ -1,4 +1,4 @@
-<?php include('views/_partials/header.php'); ?>
+<?php include('Views/_partials/header.php'); ?>
 
 <!-- Hero Section -->
 <section class="flex flex-col w-screen lg:flex-row items-center space-y-6 lg:space-x-8 lg:space-y-0 pb-12 sm:pb-16 lg:pb-0">
