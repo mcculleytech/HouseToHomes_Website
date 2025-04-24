@@ -2,70 +2,59 @@
 
 <?php include('Views/_partials/header.php'); ?>
 
-<div class="bg-myNav py-24 sm:py-32">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div  class="grid grid-cols-3 justify-items-center text-black gap-10 lg:w-[80%] m-auto">
+  <div  class=" mt-10 md:mt-0 lg:mt-0 col-span-3 lg:col-span-1 p- lg:order-2 justify-items-center content-center ">
+    <h1 class="text-6xl">About Us</h1>
+    <p class="text-lg px-4 "> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, illum! Obcaecati recusandae fugiat mollitia sit quas assumenda ad id. Mollitia debitis minima praesentium aliquam odit corrupti ipsam asperiores saepe quas.</p>
+  </div>
+  <div class="col-span-3 md:col-span-2 lg:col-span-2 lg:order-1 w-full p-4 px-5 ">
+    <img class="rounded-2xl h-[30rem] w-full md:w-[80%] lg:w-[100%] object-cover shadow-md" src="Lib\Images\DSC_8913.jpg" alt="DSC_8913.jpg">
+  </div>
+  <div class=" lg:order-3 p-4 col-span-3 md:col-span-2 lg:col-span-2 justify-items-center content-center py-20">
+    <h1 class="text-6xl">Our Mission</h1>
+    <p class="text-lg px-4 text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+  </div>
+  <div class=" hidden md:block lg:block lg:order-4 p-4 relative  w-full">
+    <img class="absolute top-0 left-0 md:top-0 lg:top-[-7rem] md:left-0 lg:left-[-5%] shadow-md rounded-2xl h-[35rem] w-[50rem] object-cover " src="Lib\Images\DSC_8844.jpg" alt="DSC_8844.jpg">
+  </div>
+    <!-- Dark Tan bar -->
 
-    <!-- Section 1: Header centered -->
-    <div class="grid gap-4 p-4" style="grid-template-columns: 1fr auto 1fr;">
-      <div></div>
-
-      <div class="col-span-3 max-w-xl text-center p-4">
-        <h2 class="text-3xl font-semibold tracking-tight text-black sm:text-3xl">Meet our Team</h2>
-        <p class="mt-6 text-lg text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div></div>
+  <div class="col-span-3 lg:order-5 bg-[#e6d7d0] w-full h-[2px]"></div>
+  <div class="text-6xl col-span-3 lg:order-6 p-4">Our Team</div>
+  <!-- Team Memer #1 -->
+  <div class="col-span-3 md:col-span-1 lg:col-span-1 grid grid-cols-2 lg:order-7 p-4">
+    <div class="justify-items-center content-center">
+         <img class="bg-[#e6d7d0] rounded-full aspect-1/1 h-[70%] g:w-auto  object-cover shadow-md" src="Lib\Images\Charlie_Face_image.png" alt="Charlie_Face_image.png">
     </div>
-
-    <!-- Section 2: CEO -->
-    <div class="grid gap-4 mt-4" style="grid-template-columns: 1fr 1fr;">
-      <!-- Image on the left, aligned to the right inside its box -->
-      <div class="p-4 flex items-center justify-end">
-        <div class="relative overflow-hidden w-32 h-32 rounded-full border-2 transform hover:scale-110 transition-transform duration-500 ease-in-out">
-        <img src="Lib/Images/Charlie_Face_image.png" alt="Charlie_Image" class="w-auto h-auto">
-        </div>
-      </div>
-
-      <!-- Text on the right -->
-      <div class="p-4 flex items-center gap-x-4">
-        <div>
-          <h3 class="text-base font-semibold tracking-tight text-gray-900">Charlie Tibbetts</h3>
-          <p class="text-sm font-semibold text-indigo-600">Owners</p>
-        </div>
-      </div>
+    <div class=" content-center text-left">
+      <h1 class="text-3xl font-bold">Charlie Tibbetts</h1>
+      <p class="text-sm font-semibold text-[#00000073] text-left">Owner</p>
     </div>
+  </div>
+    <!-- Team Memer #2 -->
 
-    <!-- Section 3: Our Team label centered -->
-    <div class="grid gap-2 mt-8 p-4" style="grid-template-columns: 1fr auto 1fr;">
-      <div></div>
-      <div class="text-2xl text-black text-center p-2">Our Team</div>
-      <div></div>
+  <div class="col-span-3 md:col-span-1 lg:col-span-1  grid grid-cols-2 lg:order-8 p-4 w-full h-full">
+    <div class="justify-items-center content-center px-5 h-full">
+         <img class="bg-[#e6d7d0] rounded-full aspect-1/1 h-[70%] g:w-auto  object-cover shadow-md fill-white" src="Lib\Images\person_24dp_736968_FILL0_wght400_GRAD0_opsz24.svg"  alt="Person.png">
     </div>
+    <div class=" content-center text-left">
+      <h1 class="text-3xl font-bold">Jane Doe</h1>
+      <p class="text-sm font-semibold text-[#00000073] text-left">Marketing Manager</p>
+    </div>
+  </div>
+  <!-- Team Memer #3 -->
 
-
-    <!-- Team Members -->
-    <div class="grid gap-4 mt-4" style="grid-template-columns: 1fr 1fr;">
-      <!-- Team Member 1: Text left, Image right (Right-aligned) -->
-      <div class="p-4 flex items-center gap-x-6 justify-end">
-        <div class="p-10"> <!-- Added padding here for text -->
-          <h3 class="text-base font-medium text-gray-900">John Doe</h3>
-          <p class="text-sm text-indigo-600">CTO</p>
-        </div>
-        <img class="size-5 rounded-full" src="Lib/Images/Charlie_Face_image.png" alt="">
-      </div>
-
-      <!-- Team Member 2: Image left, Text right (Left-aligned) -->
-      <div class="p-4 flex items-center gap-x-6 justify-start">
-        <img class="size-12 rounded-full" src="Lib/Images/Charlie_Face_image.png" alt="">
-        <div class="p-10"> <!-- Added padding here for text -->
-          <h3 class="text-base font-medium text-gray-900">Jane Smith</h3>
-          <p class="text-sm text-indigo-600">Head of Design</p>
-        </div>
-      </div>
-
-      <!-- Add more team members below as needed -->
+  <div class="col-span-3 md:col-span-1 lg:col-span-1 grid grid-cols-2 lg:order-9 p-4 w-full h-full">
+    <div class="justify-items-center content-center px-5">
+         <img class="bg-[#e6d7d0] rounded-full aspect-1/1 h-[70%] g:w-auto  object-cover shadow-md fill-white" src="Lib\Images\person_24dp_736968_FILL0_wght400_GRAD0_opsz24.svg"  alt="Person.png">
+    </div>
+    <div class=" content-center text-left">
+      <h1 class="text-3xl font-bold">John Doe</h1>
+      <p class="text-sm font-semibold text-[#00000073] text-left">Head Of Design</p>
     </div>
   </div>
 </div>
+
 
 <?php include('Views/_partials/footer.php'); ?>
