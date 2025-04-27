@@ -7,9 +7,11 @@
  module.exports = {
      darkMode: 'false',
    content: [
-     "./main/**/*.html",
-     "./node_modules/flowbite/**/*.js",
-     "./node_modules/flowbite-datepicker/**/*.js"
+      "./Main/**/*.{html,js,php}",
+      "./src/**/*.{html,js,php}",
+      "./*.{html,php}",
+      "./node_modules/flowbite/**/*.js",
+      "./node_modules/flowbite-datepicker/**/*.js"
    ],
    theme: {
      extend: {
