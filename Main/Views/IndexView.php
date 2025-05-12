@@ -172,4 +172,4 @@
 
 </div>
 
-<?php include('views/_partials/footer.php'); ?>
+<?php include('Views/_partials/footer.php'); ?>

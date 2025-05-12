@@ -38,8 +38,5 @@ if ($action == NULL)
 // Register the controllers
 require('Controllers/HomeController.php');
 require('Controllers/SchedulingController.php');
-require('Controllers/ReviewController.php');
-require('Controllers/ContactController.php');
-require('Controllers/AboutController.php');
 
 return404();

@@ -11,9 +11,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>House To Homes</title>
+    <link rel="stylesheet" href="Lib\CSS\styles.css">
     <link rel="stylesheet" href="..\src\output.css" />
 
-    <link rel="stylesheet" href="Lib\CSS\styles.css">
+
 </head>
 <body class="">
 <div class="relative min-h-screen">
