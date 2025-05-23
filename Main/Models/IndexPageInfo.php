@@ -12,7 +12,7 @@ $client->setAuthConfig('../../../credentials.json');
 $service = new Google_Service_Sheets($client);
 $spreadsheetID = "1q8P33RtFz-A1963pJ_wqPAsK4AcSA4WyefqOO4AChbs";
 
-$range = "ContactInfo!A2:D";
+$range = "IndexPage!A3:D";
 
 $selectedDays  = $_POST['days']  ?? [];
 $selectedTimes = $_POST['hours'] ?? [];

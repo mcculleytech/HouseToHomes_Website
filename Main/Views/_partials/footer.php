@@ -5,6 +5,7 @@
  */
 ?>
 <script src="..\node_modules\flowbite\dist\flowbite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
     <footer class="flex absolute bottom-0 py-5 w-full justify-center bg-myFooter">
         <div class="flex w-full justify-center">
