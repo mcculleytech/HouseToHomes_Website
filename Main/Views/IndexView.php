@@ -10,7 +10,7 @@
                 Get Started
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-[#ccc6c2] rounded-lg hover:bg-[#e6dedb] focus:ring-4 focus:ring-gray-100">
+            <a href="?action=RequestEstimate" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-[#ccc6c2] rounded-lg hover:bg-[#e6dedb] focus:ring-4 focus:ring-gray-100">
                 Request an Estimate
             </a> 
         </div>
@@ -128,47 +128,47 @@
 <!-- Testimonials -->
 <section class="text-black body-font"> 
   <div class="container px-5 py-24 mx-auto">
-    <h1 class="text-3xl font-medium title-font text-[#2a2638] mb-12 text-center">Testimonials</h1>
+    <h1 class="text-3xl font-medium title-font text-[#534B6F] mb-12 text-center">Testimonials</h1>
     <div class="flex flex-wrap -m-4">
       <!-- Testimonial -->
-      <div class="p-4 md:w-1/2 w-full text-[#2a2638]">
+      <div class="p-4 md:w-1/2 w-full text-[#534B6F]">
         <div class="h-full bg-[#f8f0eb] p-8 rounded-xl border-2 border-[#d4cac3]">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#2a2638] mb-4" viewBox="0 0 975.036 975.036">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#534B6F] mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
           <p class="leading-relaxed mb-6">WOW, is all I can say!! Charlie is very kind, hon-est, thorough, extremely reasonably priced, and he wired boot covers while in the house! He diagnosed the issue with our washer, we ordered the part, and he was here the day after we received it and bing, bang, boom, we were doing laundry! If Charlie can't help you remedy or repair your problem, he knows other knowledgeable and reputable people who can. Call Charlie, the owner of House to Home Solutions</p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-[#2a2638]">- Darcey M.</span>
+              <span class="title-font font-medium text-[#534B6F]">- Darcey M.</span>
             </span>
           </a>
         </div>
       </div>
       <!-- Testimonial -->
-      <div class="p-4 md:w-1/2 w-full text-[#2a2638]">
+      <div class="p-4 md:w-1/2 w-full text-[#534B6F]">
         <div class="h-full bg-[#f8f0eb] p-8 rounded-xl border-2 border-[#d4cac3]">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#2a2638] mb-4" viewBox="0 0 975.036 975.036">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#534B6F] mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
           <p class="leading-relaxed mb-6">Charlie was absolutely amazing! He installed floor ceiling curtains flawlessly, fixed the lights that were too high for me to reach even with a ladder, installed a TV, assembled two beds, and tackled so much more with incredible skill and efficiency. Hiring Charlie was truly the best decision I could have made---he exceeded my expectations in every way. His attention to detail  and ability to handle such a wide variety of tasks made it worth every penny. I couldn't be happier with my results. Highly recommend his services!</p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-[#2a2638]">- Rori O.</span>
+              <span class="title-font font-medium text-[#534B6F]">- Rori O.</span>
             </span>
           </a>
         </div>
       </div>
 
       <!-- Testimonial -->
-      <div class="p-4 md:w-1/2 w-full text-[#2a2638] ">
+      <div class="p-4 md:w-1/2 w-full text-[#534B6F] ">
         <div class="h-full bg-[#f8f0eb] p-8 rounded-xl border-2 border-[#d4cac3]">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#2a2638] mb-4" viewBox="0 0 975.036 975.036">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="block w-5 h-5 text-[#534B6F] mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
           <p class="leading-relaxed mb-6">Charlie was super quick to respond, and he was knowledgeable and very reasonably priced! 10/10 recommend!</p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-[#2a2638]">- Catherine M.</span>
+              <span class="title-font font-medium text-[#534B6F]">- Catherine M.</span>
             </span>
           </a>
         </div>
@@ -180,7 +180,7 @@
 
 
 <!-- Contact Info Section -->
-<div class="w-full mt-4 mb-10 flex flex-col items-center gap-4 text-center text-black font-sans bg-My-Tan py-6 px-4 rounded-md shadow-md">
+<div class="w-full mt-4 mb-10 flex flex-col items-center gap-4 text-center text-[#005887] font-sans bg-My-Tan py-6 px-4 rounded-md shadow-md">
 
 <!-- Phone -->
 <div class="flex items-center gap-2">
