@@ -37,16 +37,10 @@
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-                <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 24 24" fill="none" stroke="#534B6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-2">
-                    <path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"></path>
-                    <line x1="10" x2="8" y1="5" y2="7"></line>
-                    <line x1="2" x2="22" y1="12" y2="12"></line>
-                    <line x1="7" x2="7" y1="19" y2="21"></line>
-                    <line x1="17" x2="17" y1="19" y2="21"></line>
-                </svg>
+
                 <div class="space-y-2">
-                    <h3 class="font-bold">Plumbing Fixes</h3>
-                    <p class="text-sm text-muted-foreground">Dripping faucets, leaky pipes, or clogged drains? We’ll take care of it quickly and cleanly.</p>
+                    <h3 class="font-bold">Plumbing & Electrical Help</h3>
+                    <p class="text-sm text-muted-foreground">From dripping faucets to flickering lights, Charlie can tackle minor plumbing and electrical jobs like replacing fixtures, unclogging drains, and installing outlets or dimmers.</p>
                 </div>
             </div>
         </div>
@@ -54,73 +48,86 @@
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-                <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 24 24" fill="none" stroke="#534B6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-2">
-                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-                </svg>
+
                 <div class="space-y-2">
                     <h3 class="font-bold">General Repairs</h3>
-                    <p class="text-sm">Small issues around the house? We fix doors, windows, cabinets, drywall, and more.</p>
+                    <p class="text-sm">Loose hinges, leaky faucets, cracked drywall, or squeaky doors? Charlie handles all the common household fixes that keep your home in top shape.</p>
                 </div>
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                      more
+                  </a>
             </div>
         </div>
 
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-            <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#534B6F" class="mt-2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-            </svg>
-
                 <div class="space-y-2">
-                    <h3 class="font-bold">Light Fixture Installation</h3>
-                    <p class="text-sm text-muted-foreground">Whether it’s swapping a bulb or installing a new ceiling light, we’ll brighten things up for you.</p>
+                    <h3 class="font-bold">Outdoor & Seasonal Maintenance</h3>
+                    <p class="text-sm text-muted-foreground">From gutter cleaning and deck repair to pressure washing and siding fixes, Charlie helps maintain your home's exterior and can handle indoor seasonal tasks like air filter changes and caulking, too.</p>
                 </div>
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                      more
+                  </a>
             </div>
         </div>
 
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-<svg fill="#534B6F" width="67" height="67" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 503.607 503.607" xml:space="preserve" stroke="#534B6F" stroke-width="7.554105"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="translate(1 1)"> <g> <path d="M485.82,174.843h-16.787c0-9.233-7.554-16.787-16.787-16.787h-16.787c0-14.269-10.911-25.18-25.18-25.18h-41.967H183.656 h-41.967c-11.342,0-20.555,6.897-23.861,16.891c-16.247,1.057-29.798,10.997-35.907,25.076H59.433L36.77,153.859 c-3.357-3.357-8.393-3.357-11.751,0L1.518,177.361C-0.161,179.039-1,180.718-1,183.236c0,2.518,0.839,4.197,2.518,5.875 l35.252,33.574c1.679,1.679,3.357,2.518,5.875,2.518h33.138l-8.797,114.99c-0.839,7.554,1.679,14.269,6.715,19.305 c5.036,5.875,11.751,8.393,18.466,8.393c22.662,0,41.967-16.787,44.485-40.289l4.533-60.445c0.168,0.003,0.334,0.012,0.503,0.012 h9.914l18.624,82.256c1.679,6.715,5.875,12.59,11.751,15.948c4.197,2.518,8.393,3.357,12.59,3.357 c2.518,0,5.036-0.839,7.554-1.679c21.823-5.875,35.252-27.698,31.056-50.361l-8.37-49.521h185.471 c14.269,0,25.18-10.911,25.18-25.18h16.787c9.233,0,16.787-7.554,16.787-16.787h16.787c9.233,0,16.787-7.554,16.787-16.787V191.63 C502.607,182.397,495.052,174.843,485.82,174.843z M359.918,149.662v33.574c0,5.036-3.357,8.393-8.393,8.393H200.443 c-5.036,0-8.393-3.357-8.393-8.393v-33.574H359.918z M77.059,208.416H46.003l-26.859-25.18l12.59-11.751l19.305,17.626 c0.839,1.679,3.357,2.518,5.036,2.518h22.277l-1.254,16.396L77.059,208.416z M119.866,325.085v1.679 c-1.679,13.43-13.43,24.341-27.698,24.341c-2.518,0-4.197-0.839-5.875-2.518c-1.679-2.518-2.518-4.197-2.518-6.715l11.153-145.79 l0.598-6.971c0-0.839,0.839-1.679,0.839-3.357c0.317-0.952,0.393-2.023,0.276-3.079c2.883-8.768,10.784-14.828,19.868-16.226 v8.084v67.457c0,7.702,3.183,14.422,8.353,18.979L119.866,325.085z M217.229,317.531v1.679 c2.518,14.269-5.875,27.698-19.305,31.895c-2.518,0.839-5.036,0-6.715-0.839c-2.518-0.839-3.357-2.518-4.197-5.036l-17.626-78.059 h38.61L217.229,317.531z M418.672,241.99c0,5.036-3.357,8.393-8.393,8.393h-25.18v-16.787c0-5.036-3.357-8.393-8.393-8.393 c-5.036,0-8.393,3.357-8.393,8.393v16.787h-50.361v-16.787c0-5.036-3.357-8.393-8.393-8.393s-8.393,3.357-8.393,8.393v16.787 h-50.361v-16.787c0-5.036-3.357-8.393-8.393-8.393s-8.393,3.357-8.393,8.393v16.787h-19.305h-31.056v-16.787 c0-5.036-3.357-8.393-8.393-8.393c-5.036,0-8.393,3.357-8.393,8.393v16.787h-8.393h-16.787c-0.779,0-1.512-0.089-2.204-0.244 c-0.362-0.225-0.742-0.431-1.153-0.596c-3.357-1.679-5.036-4.197-5.036-7.554v-83.934c0-5.036,3.357-8.393,8.393-8.393h33.574 v33.574c0,14.269,10.911,25.18,25.18,25.18h151.082c14.269,0,25.18-10.911,25.18-25.18v-33.574h33.574 c5.036,0,8.393,3.357,8.393,8.393v8.393v67.148V241.99z M452.246,225.203h-16.787v-50.361h16.787v8.393v33.574V225.203z M485.82,208.416h-16.787V191.63h16.787V208.416z"></path> </g> </g> </g></svg>
                 <div class="space-y-2">
-                    <h3 class="font-bold">Caulking & Sealing</h3>
-                    <p class="text-sm text-muted-foreground">Fresh caulk around tubs, sinks, or windows keeps things clean and leak-free, we do that too.</p>
+                    <h3 class="font-bold">Installation & Mounting</h3>
+                    <p class="text-sm text-muted-foreground">Whether it's hanging blinds, mounting a TV, or installing appliances and vanities, Charlie ensures everything is safely and securely installed, just the way you want it.</p>
                 </div>
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Caulking & Sealing')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                      more
+                  </a>
             </div>
         </div>
 
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-<svg width="67" height="67" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#534B6F" class="bi bi-door-closed"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2zm1 13h8V2H4v13z"></path> <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z"></path> </g></svg>                <div class="space-y-2">
-                    <h3 class="font-bold">Window & Door Repairs</h3>
-                    <p class="text-sm text-muted-foreground">Drafty windows or sticky doors? We’ll get them working smoothly and looking good again.</p>
+                <div class="space-y-2">
+                    <h3 class="font-bold">Carpentry & Custom Builds</h3>
+                    <p class="text-sm text-muted-foreground">Need shelves, trim work, or even a small shed? From fixing fences to custom carpentry and crown molding, Charlie brings precision and craftsmanship to every woodwork task.</p>
                 </div>
+                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                      more
+                  </a>
             </div>
         </div>
 
         <div
             class="relative overflow-hidden rounded-xl border-2 bg-[#fffaf8] select-none hover:shadow hover:shadow-[#ccc6c2] p-2">
             <div class="flex h-[180px] flex-col justify-between rounded-xl p-6">
-                <svg width="67" height="67" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier"> 
-                    <path d="M22 22L2 22" stroke="#534B6F" stroke-width="1.5" stroke-linecap="round"></path>
-                     <path d="M2 11L10.1259 4.49931C11.2216 3.62279 12.7784 3.62279 13.8741 4.49931L22 11" stroke="#534B6F" stroke-width="1.5" stroke-linecap="round"></path> 
-                     <path d="M15.5 5.5V3.5C15.5 3.22386 15.7239 3 16 3H18.5C18.7761 3 19 3.22386 19 3.5V8.5" stroke="#534B6F" stroke-width="1.5" stroke-linecap="round"></path> 
-                     <path d="M4 22V9.5" stroke="#534B6F" stroke-width="1.5" stroke-linecap="round"></path> <path d="M20 22V9.5" stroke="#534B6F" stroke-width="1.5" stroke-linecap="round"></path> 
-                     <path d="M15 22V17C15 15.5858 15 14.8787 14.5607 14.4393C14.1213 14 13.4142 14 12 14C10.5858 14 9.87868 14 9.43934 14.4393C9 14.8787 9 15.5858 9 17V22" stroke="#534B6F" stroke-width="1.5"></path> 
-                    </g></svg>
+
                     <div class="space-y-2">
-                    <h3 class="font-bold">Home Maintenance Checks</h3>
-                    <p class="text-sm text-muted-foreground">Let us inspect and handle minor upkeep — from loose railings to filter changes, so things stay in great shape.</p>
+                    <h3 class="font-bold">Painting & Surface Finishing</h3>
+                    <p class="text-sm text-muted-foreground">Freshen up your space with light painting, deck staining, or touch-ups. Charlie makes your interiors and exteriors look clean and polished again.</p>
                 </div>
+                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Home Maintenance.')?>" aria-label=""
+                      class=" mt-2 inline-flex items-center font-semibold transition-colors duration-200 text-green-400 hover:text-green-800">Learn
+                      more
+                  </a>
             </div>
         </div>
 
-    </div>
 
+
+
+
+
+
+
+
+
+
+    
 </section>
 
 
@@ -180,7 +187,7 @@
 
 
 <!-- Contact Info Section -->
-<div class="w-full mt-4 mb-10 flex flex-col items-center gap-4 text-center text-[#005887] font-sans bg-My-Tan py-6 px-4 rounded-md shadow-md">
+<div class="w-full mt-4 mb-10 flex flex-col items-center gap-4 text-center text-[#005887] font-sans bg-My-Tan py-6 px-4 rounded-md ">
 
 <!-- Phone -->
 <div class="flex items-center gap-2">

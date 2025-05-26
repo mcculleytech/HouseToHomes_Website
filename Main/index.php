@@ -5,10 +5,11 @@
  *          models and controllers
  */
 
-// Import the data models
-
 
 // Define a 404 Not Found function
+
+
+
 function return404()
 {
     $title = '404 Not Found';
@@ -25,10 +26,10 @@ session_start();
 
 
 // Get the action
-$action = filter_input(INPUT_POST, 'action');
+$action = htmlspecialchars($_POST['action'] ?? '', ENT_QUOTES, 'UTF-8');
 if ($action == NULL)
 {
-    $action = filter_input(INPUT_GET, 'action');
+    $action = htmlspecialchars($_GET['action'] ?? '', ENT_QUOTES, 'UTF-8');
     if ($action == NULL)
     {
         $action = 'home';
