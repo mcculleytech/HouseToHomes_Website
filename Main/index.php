@@ -6,17 +6,26 @@
  */
 
 
+
+
+
 // Define a 404 Not Found function
-
-
-
 function return404()
 {
-    $title = '404 Not Found';
+    $title = '404';
     $body = 'That page does not exist.';
     include('Views/error.php');
     exit();
 }
+
+function return500()
+{
+    $title = '500';
+    $body = 'ServerError';
+    include('Views/error.php');
+    exit();
+}
+
 
 // Start the session
 $lifetime = 60 * 60 * 24 * 365; // 1 year in seconds

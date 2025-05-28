@@ -51,7 +51,7 @@ class FormValidator
             '2digitforce' => "^\d+\,\d\d\$",
             'anything' => "^[\d\D]{1,}\$"
     );
-    private $validations, $sanatations, $mandatories, $errors, $corrects, $fields;
+    private $validations, $sanitations, $mandatories, $errors, $corrects, $fields;
     
 
     public function __construct($validations=array(), $mandatories = array(), $sanatations = array())
@@ -73,7 +73,7 @@ class FormValidator
         $havefailures = false;
         foreach($items as $key=>$val)
         {
-            if((strlen($val) == 0 || array_search($key, $this->validations) === false) && array_search($key, $this->mandatories) === false) 
+            if ((is_array($val) || strlen($val) == 0 || !isset($this->validations[$key])) && !in_array($key, $this->mandatories))
             {
                 $this->corrects[] = $key;
                 continue;
@@ -211,7 +211,7 @@ class FormValidator
                 $filter = FILTER_VALIDATE_URL;
             break;
         }
-        return ($filter === false) ? false : filter_var($var, $filter) !== false ? true : false;
+        return ($filter === false) ? false : (filter_var($var, $filter) !== false ? true : false);
     }       
     
 
