@@ -1,6 +1,5 @@
 <?php include('Views/_partials/header.php'); ?>
 
-
 <div class="flex items-center justify-center min-h-[45rem] bg-gradient-to-b ">
     <div
         class="w-full max-w-2xl p-12 mx-4 text-center transition-all transform bg-white shadow-lg rounded-xl hover:shadow-xl">
@@ -34,6 +33,7 @@
         </div>
     </div>
 </div>
+
 
 
 <?php include('Views/_partials/footer.php'); ?>
