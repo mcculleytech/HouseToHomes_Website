@@ -40,16 +40,14 @@
                 <div class="w-80 mx-3 relative">
                         <div class="mb-6">
                                 <label for="message" class="block mb-3 w-93 lg:w-100 text-sm font-medium text-black font-sans uppercase caret-transparent">Your message</label>
-                                <?php
-                                        $prefillMessage = isset($_GET['message']) ? htmlspecialchars($_GET['message']) : '';
-                                ?>
+    
                                 <textarea id="message" 
                                         rows="4" 
                                         name="message"
                                         class=" block w-93 p-4 tan text-[#5a5451] border placeholder:text-[#5a5451] 
                                                 border-[#b3a7a2] rounded-lg bg-transparent text-base  focus:border-[#807874] focus:ring-transparent
                                                 focus:bg-[#e6d7d0]" 
-                                        placeholder="Lorem ipsum..."><?php echo $prefillMessage; ?></textarea>
+                                        placeholder="Lorem ipsum..."><?php echo $PresetMessage; ?></textarea>
                         </div>
                 </div>
         </div>
