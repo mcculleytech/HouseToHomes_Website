@@ -10,8 +10,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>House To Homes</title>
-    
+    <title>House To Home Solutions</title>
+    <link href="Lib\Images\Logo_Black.png" rel="icon" media="(prefers-color-scheme: light)">
+    <link href="Lib\Images\Logo_White.png" rel="icon" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="../src/output.css?v=2" />
     <link rel="stylesheet" href="Lib/CSS/styles.css">
     
