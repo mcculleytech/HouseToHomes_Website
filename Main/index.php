@@ -14,7 +14,7 @@ function return404()
 {
     $title = '404 Not Found';
     $body = 'That page does not exist.';
-    include('views/error.php');
+    include('Views/error.php');
     exit();
 }
 
