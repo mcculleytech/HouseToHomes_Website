@@ -42,6 +42,10 @@
                     <h3 class="font-bold">Plumbing & Electrical Help</h3>
                     <p class="text-sm text-muted-foreground">From dripping faucets to flickering lights, Charlie can tackle minor plumbing and electrical jobs like replacing fixtures, unclogging drains, and installing outlets or dimmers.</p>
                 </div>
+                    <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Plumbing & Electrical Help')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Learn
+                      more
+                  </a>
             </div>
         </div>
 
@@ -53,8 +57,8 @@
                     <h3 class="font-bold">General Repairs</h3>
                     <p class="text-sm">Loose hinges, leaky faucets, cracked drywall, or squeaky doors? Charlie handles all the common household fixes that keep your home in top shape.</p>
                 </div>
-                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
-                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in General Repairs')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Learn
                       more
                   </a>
             </div>
@@ -67,8 +71,8 @@
                     <h3 class="font-bold">Outdoor & Seasonal Maintenance</h3>
                     <p class="text-sm text-muted-foreground">From gutter cleaning and deck repair to pressure washing and siding fixes, Charlie helps maintain your home's exterior and can handle indoor seasonal tasks like air filter changes and caulking, too.</p>
                 </div>
-                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
-                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Outdoor & Seasonal Maintenance')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Learn
                       more
                   </a>
             </div>
@@ -81,8 +85,8 @@
                     <h3 class="font-bold">Installation & Mounting</h3>
                     <p class="text-sm text-muted-foreground">Whether it's hanging blinds, mounting a TV, or installing appliances and vanities, Charlie ensures everything is safely and securely installed, just the way you want it.</p>
                 </div>
-                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Caulking & Sealing')?>" aria-label=""
-                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Installation & Mounting')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Learn
                       more
                   </a>
             </div>
@@ -95,8 +99,8 @@
                     <h3 class="font-bold">Carpentry & Custom Builds</h3>
                     <p class="text-sm text-muted-foreground">Need shelves, trim work, or even a small shed? From fixing fences to custom carpentry and crown molding, Charlie brings precision and craftsmanship to every woodwork task.</p>
                 </div>
-                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Window & Door Repairs')?>" aria-label=""
-                      class=" inline-flex items-center font-semibold text-[#00aeff] hover:text-green-800">Learn
+                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Carpentry & Custom Builds')?>" aria-label=""
+                      class=" inline-flex items-center font-semibold text-blue-700 hover:text-blue-900">Learn
                       more
                   </a>
             </div>
@@ -110,8 +114,8 @@
                     <h3 class="font-bold">Painting & Surface Finishing</h3>
                     <p class="text-sm text-muted-foreground">Freshen up your space with light painting, deck staining, or touch-ups. Charlie makes your interiors and exteriors look clean and polished again.</p>
                 </div>
-                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Home Maintenance.')?>" aria-label=""
-                      class=" mt-2 inline-flex items-center font-semibold transition-colors duration-200 text-green-400 hover:text-green-800">Learn
+                  <a href="?action=RequestEstimate&message=<?= urlencode('I\'m interested in Painting & Surface Finishing.')?>" aria-label=""
+                      class=" mt-2 inline-flex items-center font-semibold transition-colors duration-200 text-blue-700 hover:text-blue-900">Learn
                       more
                   </a>
             </div>

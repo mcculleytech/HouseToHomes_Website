@@ -2,7 +2,7 @@
 
 <?php include('Views/_partials/header.php'); ?>
 
-<div  class="grid grid-cols-3 justify-items-center text-black gap-10 lg:w-[80%] m-auto">
+<div  class="grid grid-cols-3 justify-items-center text-black gap-10 lg:w-[80%] m-auto my-20">
   <div  class=" mt-10 md:mt-0 lg:mt-0 col-span-3 lg:col-span-1 p- lg:order-2 justify-items-center content-center ">
     <h1 class="text-6xl">About Us</h1>
     <p class="text-lg px-4 ">
@@ -21,10 +21,10 @@
     Charlie has always had a natural talent for fixing what’s broken and improving what can be better. 
     That passion for problem-solving and craftsmanship is what inspired him to create House to Home Solutions. 
     Behind every project whether big or small is reliable repairs, crafted with integrity.
-    </p>
+    </p> 
   </div>
   <div class=" hidden md:block lg:block lg:order-4 p-4 relative  w-full">
-    <img class="absolute top-0 left-0 md:top-0 lg:top-[-7rem] md:left-0 lg:left-[-5%] shadow-md rounded-2xl h-[35rem] w-[50rem] object-cover " src="Lib\Images\DSC_8844.jpg" alt="DSC_8844.jpg">
+    <img class="absolute top-0 left-0 md:top-0 lg:top-[-2rem] md:left-0 lg:left-[-5%] shadow-md rounded-2xl h-[40rem] w-[50rem] object-cover " src="Lib\Images\OurMission.jpg" alt="DSC_8844.jpg">
   </div>
     <!-- Dark Tan bar -->
 <!-- 
