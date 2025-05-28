@@ -2,55 +2,42 @@
 
 <?php 
 
-require  '../../vendor/autoload.php';
+require  '../vendor/autoload.php';
+
+$data = [];
 
 $client = new \Google_Client();
 $client->setApplicationName('Google Sheet for schedule');
 $client->setScopes([\Google_Service_Sheets::SPREADSHEETS]);
 $client->setAccessType('offline');
-$client->setAuthConfig('../../../credentials.json');
+$client->setAuthConfig('../../credentials.json');
 $service = new Google_Service_Sheets($client);
 $spreadsheetID = "1q8P33RtFz-A1963pJ_wqPAsK4AcSA4WyefqOO4AChbs";
 
-$range = "IndexPage!A3:D";
+$TopParagraphRange = "IndexPage!C3:C23";
+$ServiceCardInfoRange = "IndexPage!E3:F23";
+$TestimonialsRange = "IndexPage!H3:I23";
 
-$selectedDays  = $_POST['days']  ?? [];
-$selectedTimes = $_POST['hours'] ?? [];
-
-$daysString  = count($selectedDays)
-  ? implode(', ', $selectedDays)
-  : 'None selected';
-$timesString = count($selectedTimes)
-  ? implode(', ', $selectedTimes)
-  : 'None selected';
-
-
-$values = [
-    $_POST['name'],  $_POST['phone'], $_POST['email'], $_POST['message'], $daysString, $timesString
-];
-
-try{
-    $body = new Google_Service_Sheets_ValueRange([
-    'values' => [$values]
-    ]);
-    $params = [
-    'valueInputOption' => 'RAW'
-    ];
-    $insert = [
-        "insertDataOption" => "INSERT_ROWS"
-    ];
-        //executing the request
-        $result = $service->spreadsheets_values->append(
-            $spreadsheetID, 
-            $range, 
-            $body, 
-            $params,
-            $insert);
-        header("location:../index.php");
+try {
+    $ServiceCardResponse = $service->spreadsheets_values->get($spreadsheetID, $TopParagraphRange);
+    $data['TopParagraph'] = $ServiceCardResponse->getValues() ?: ["No Data Found"];
+} catch (Exception $e) {
+    $data['error'] = $e->getMessage();
 }
-catch(Exception $e) {
-    echo 'Message: ' .$e->getMessage();
+try {
+    $ServiceCardResponse = $service->spreadsheets_values->get($spreadsheetID, $ServiceCardInfoRange);
+    $data['ServiceCards'] = $ServiceCardResponse->getValues() ?: ["No Data Found"];
+} catch (Exception $e) {
+    $data['error'] = $e->getMessage();
 }
+try {
+    $TestimonialsResponse = $service->spreadsheets_values->get($spreadsheetID, $TestimonialsRange);
+    $data['Testimonials'] = $TestimonialsResponse->getValues() ?: ["No Data Found"];
+} catch (Exception $e) {
+    $data['error'] = $e->getMessage();
+}
+
+return $data;
 
 
 ?>
